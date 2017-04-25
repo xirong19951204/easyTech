@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".FacebookMain" />
         <activity android:name=".TwitterMain" />
-        <activity android:name=".InstagramMain"></activity>
+        <activity android:name=".InstagramMain" />
+        <activity android:name=".FacebookRegister"></activity>
     </application>
 
 </manifest>

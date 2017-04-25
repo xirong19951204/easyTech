@@ -12,38 +12,24 @@
     tools:context="com.example.easytech.easytech.MainActivity">
 
     <Button
-        android:id="@+id/button_fb"
-        android:layout_width="match_parent"
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/button_home"
-        android:layout_marginTop="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:background="@android:color/holo_blue_light"
-        android:onClick="ins1"
-        android:text="How to get Instagram App"
-        android:textAllCaps="false"
-        android:textSize="18sp" />
-
-    <Button
-        android:id="@+id/button_ins"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/button_twi"
-        android:layout_marginTop="28dp"
-        android:background="@android:color/holo_blue_light"
-        android:onClick="ins3"
-        android:text="How to login"
+        android:onClick="next"
+        android:text="Next Step"
         android:textAllCaps="false"
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView_greet"
+        android:id="@+id/textView_fbstep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="Instagram"
+        android:text="Sign Up Step 1:"
         android:textSize="24sp" />
 
     <Button
@@ -56,15 +42,22 @@
         android:text="Home" />
 
     <Button
-        android:id="@+id/button_twi"
-        android:layout_width="match_parent"
+        android:id="@+id/button_last"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/button_fb"
-        android:layout_marginTop="26dp"
         android:background="@android:color/holo_blue_light"
-        android:onClick="ins2"
-        android:text="How to register an account"
+        android:onClick="last"
+        android:text="Last Step"
         android:textAllCaps="false"
         android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView_test"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_home"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
 </RelativeLayout>
