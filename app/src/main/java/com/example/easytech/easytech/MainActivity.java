@@ -4,14 +4,19 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.os.Handler;
 
 
 public class MainActivity extends AppCompatActivity {
+    //welcome screen
+    private static int SPLASH_TIME_OUT = 4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //welcome screen
+
     }
 
     public void fb(View v){
