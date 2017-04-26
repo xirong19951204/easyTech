@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">easyTech</string>
+    <string name="greet_title">Choose a function:</string>
 </resources>
